@@ -1,0 +1,72 @@
+/*
+Theme Name: accontant .
+Theme URI: desyriano.nl
+Description: account Theme.
+Version: 1.0
+Author: .
+Author URI: Your website address.
+*/
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+}
+body {
+  min-height: 100%;
+}
+body.navActive {
+  overflow-y: hidden;
+}
+form input,
+form textarea,
+form select {
+  padding: 0.4rem 0.8rem;
+  width: 100%;
+}
+form .form-group {
+  margin-top: 0.5rem;
+}
+.formError {
+  position: relative;
+  height: 100%;
+}
+.formError input,
+.formError select,
+.formError textarea {
+  border: 2px solid #ff0100;
+}
+.formError .validationCheck {
+  display: inline-block;
+  color: #ff0100;
+  position: absolute;
+  right: 1rem;
+  margin-top: 0.5rem;
+}
+.formError small {
+  display: block;
+  color: #ff0100;
+  margin: 0.4rem 0;
+}
+.formSuccess input,
+.formSuccess select,
+.formSuccess textarea {
+  border: 2px solid #47af2c;
+}
+.formSuccess .validationCheck {
+  color: #47af2c;
+  position: absolute;
+  right: 1rem;
+  margin-top: 0.5rem;
+}
+.formSuccess small {
+  display: none;
+}
